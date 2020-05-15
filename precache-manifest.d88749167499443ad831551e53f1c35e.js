@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0b1ae4550954730649a6",
-    "url": "/Course-Searcher/static/css/main.996058e5.chunk.css"
+    "revision": "824b5581776b40d21e0d",
+    "url": "/Course-Searcher/static/css/main.a08ce14e.chunk.css"
   },
   {
-    "revision": "0b1ae4550954730649a6",
-    "url": "/Course-Searcher/static/js/main.0b1ae455.chunk.js"
+    "revision": "824b5581776b40d21e0d",
+    "url": "/Course-Searcher/static/js/main.824b5581.chunk.js"
   },
   {
     "revision": "e074241e72a602e93cc2",
@@ -16,32 +16,40 @@ self.__precacheManifest = [
     "url": "/Course-Searcher/static/js/runtime~main.4b12f10f.js"
   },
   {
-    "revision": "63782ba287a17cfe8386e8d5c7a4e34f",
-    "url": "/Course-Searcher/static/media/bits.63782ba2.jpg"
-  },
-  {
-    "revision": "3a7a1b5a7b0540e55d732bf0983e8ad7",
-    "url": "/Course-Searcher/static/media/ce.3a7a1b5a.jpg"
-  },
-  {
     "revision": "af2a304960641badd6dfdf5e6b9b1080",
     "url": "/Course-Searcher/static/media/bio.af2a3049.jpg"
-  },
-  {
-    "revision": "a08fbd033ae368597eb9c0726d4cd96b",
-    "url": "/Course-Searcher/static/media/chem.a08fbd03.png"
   },
   {
     "revision": "af4913668f1756061cd74c42437d31bb",
     "url": "/Course-Searcher/static/media/biot.af491366.jpg"
   },
   {
+    "revision": "3a7a1b5a7b0540e55d732bf0983e8ad7",
+    "url": "/Course-Searcher/static/media/ce.3a7a1b5a.jpg"
+  },
+  {
     "revision": "3dbed9a40c18c393c7ff74815fd921a8",
     "url": "/Course-Searcher/static/media/csis.3dbed9a4.jpg"
   },
   {
+    "revision": "63782ba287a17cfe8386e8d5c7a4e34f",
+    "url": "/Course-Searcher/static/media/bits.63782ba2.jpg"
+  },
+  {
     "revision": "f38896042d87cab6b3b3b6ff6cec0d43",
     "url": "/Course-Searcher/static/media/math.f3889604.jpg"
+  },
+  {
+    "revision": "a08fbd033ae368597eb9c0726d4cd96b",
+    "url": "/Course-Searcher/static/media/chem.a08fbd03.png"
+  },
+  {
+    "revision": "9b01275d4b7c3296e50ea97dc52ecae6",
+    "url": "/Course-Searcher/static/media/phy.9b01275d.jpg"
+  },
+  {
+    "revision": "514a5664b9a56be49e8761c1b1023d85",
+    "url": "/Course-Searcher/static/media/mech.514a5664.jpg"
   },
   {
     "revision": "f60f341698e02a190588c2140fa5f9f4",
@@ -52,19 +60,11 @@ self.__precacheManifest = [
     "url": "/Course-Searcher/static/media/eee.9c343e55.jpg"
   },
   {
-    "revision": "514a5664b9a56be49e8761c1b1023d85",
-    "url": "/Course-Searcher/static/media/mech.514a5664.jpg"
-  },
-  {
-    "revision": "9b01275d4b7c3296e50ea97dc52ecae6",
-    "url": "/Course-Searcher/static/media/phy.9b01275d.jpg"
-  },
-  {
     "revision": "2aa7ffa8a7397b633c666e97f522a527",
     "url": "/Course-Searcher/static/media/che.2aa7ffa8.png"
   },
   {
-    "revision": "be82f7f3851a9826eaf5a4ea27b167cf",
+    "revision": "89be800dd43c9638d68c62c8ccdb3388",
     "url": "/Course-Searcher/index.html"
   }
 ];
