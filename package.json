@@ -1,0 +1,31 @@
+{
+  "homepage": "http://thedhruvrawat.github.io/Course-Searcher/",
+  "name": "search-filter-in-reactjs",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "mdbreact": "^4.1.0",
+    "react": "15.4.2",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "15.4.2",
+    "react-scripts": "2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

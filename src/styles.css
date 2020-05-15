@@ -1,0 +1,174 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+body {
+  background-color: #000;
+}
+
+.card{
+  background-color: transparent;
+}
+
+.ic {
+  margin-bottom: 0;
+}
+
+.title {
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+  color: #f4e4c2 !important;
+}
+
+.bio {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.35), rgba(117, 19, 93, 0.5)), url('../src/img/bio.jpg');
+  color: #fff;
+  border-radius: 10px;
+}
+
+.bio:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.2), rgba(117, 19, 93, 0.3)), url('../src/img/bio.jpg');
+  cursor: pointer;
+  transition: all 1ms ease-in-out;
+}
+
+.biot {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.35), rgba(117, 19, 93, 0.5)), url('../src/img/biot.jpg');
+  color: #fff;
+  border-radius: 10px;
+}
+
+.biot:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.2), rgba(117, 19, 93, 0.3)), url('../src/img/biot.jpg');
+  cursor: pointer;
+  transition: all 1ms ease-in-out;
+}
+
+.bits {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.35), rgba(117, 19, 93, 0.5)), url('../src/img/bits.jpg');
+  color: #fff;
+  border-radius: 10px;
+}
+
+.bits:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.2), rgba(117, 19, 93, 0.3)), url('../src/img/bits.jpg');
+  cursor: pointer;
+  transition: all 1ms ease-in-out;
+}
+
+.ce {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.35), rgba(117, 19, 93, 0.5)), url('../src/img/ce.jpg');
+  color: #fff;
+  border-radius: 10px;
+}
+
+.ce:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.2), rgba(117, 19, 93, 0.3)), url('../src/img/ce.jpg');
+  cursor: pointer;
+  transition: all 1ms ease-in-out;
+}
+
+.che {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.35), rgba(117, 19, 93, 0.5)), url('../src/img/che.png');
+  color: #fff;
+  border-radius: 10px;
+}
+
+.che:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.2), rgba(117, 19, 93, 0.3)), url('../src/img/che.png');
+  cursor: pointer;
+  transition: all 1ms ease-in-out;
+}
+.chem {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.35), rgba(117, 19, 93, 0.5)), url('../src/img/chem.png');
+  color: #fff;
+  border-radius: 10px;
+  transition: background 1s ease-in-out;
+}
+
+.chem:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.2), rgba(117, 19, 93, 0.3)), url('../src/img/chem.png');
+  cursor: pointer;
+  transition: background 1s ease-in-out;
+}
+
+.csis {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.35), rgba(117, 19, 93, 0.5)), url('../src/img/csis.jpg');
+  color: #fff;
+  border-radius: 10px;
+  transition: background 1s ease-in-out;
+}
+
+.csis:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.2), rgba(117, 19, 93, 0.3)), url('../src/img/csis.jpg');
+  cursor: pointer;
+  transition: background 1s ease-in-out;
+}
+
+.ecofin {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.35), rgba(117, 19, 93, 0.5)), url('../src/img/econ.jpeg');
+  color: #fff;
+  border-radius: 10px;
+  transition: background 1s ease-in-out;
+}
+
+.ecofin:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.2), rgba(117, 19, 93, 0.3)), url('../src/img/econ.jpeg');
+  cursor: pointer;
+  transition: background 1s ease-in-out;
+}
+
+.eee {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.35), rgba(117, 19, 93, 0.5)), url('../src/img/eee.jpg');
+  color: #fff;
+  border-radius: 10px;
+  transition: background 1s ease-in-out;
+}
+
+.eee:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.2), rgba(117, 19, 93, 0.3)), url('../src/img/eee.jpg');
+  cursor: pointer;
+  transition: background 1s ease-in-out;
+}
+
+.math {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.35), rgba(117, 19, 93, 0.5)), url('../src/img/math.jpg');
+  color: #fff;
+  border-radius: 10px;
+  transition: background 1s ease-in-out;
+}
+
+.math:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.2), rgba(117, 19, 93, 0.3)), url('../src/img/math.jpg');
+  cursor: pointer;
+  transition: background 1s ease-in-out;
+}
+
+.me {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.35), rgba(117, 19, 93, 0.5)), url('../src/img/mech.jpg');
+  color: #fff;
+  border-radius: 10px;
+  transition: background 1s ease-in-out;
+}
+
+.me:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.2), rgba(117, 19, 93, 0.3)), url('../src/img/mech.jpg');
+  cursor: pointer;
+  transition: background 1s ease-in-out;
+}
+
+.phy {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.35), rgba(117, 19, 93, 0.5)), url('../src/img/phy.jpg');
+  color: #fff;
+  border-radius: 10px;
+  transition: background 1s ease-in-out;
+}
+
+.phy:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.2), rgba(117, 19, 93, 0.3)), url('../src/img/phy.jpg');
+  cursor: pointer;
+  transition: background 1s ease-in-out;
+}
+
