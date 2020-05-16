@@ -1,16 +1,13 @@
 import React, { Component } from "react";
 import {
-  Button,
   Input,
   Card,
   CardBody,
-  CardImage,
   CardTitle,
   CardText
 } from "mdbreact";
 
-
-import blankImg from "./blank.gif";
+import MyModal from '../Modal/Modal'
 
 import "./style.css";
 
@@ -18,12 +15,19 @@ import courseList from "./courses.json";
 
 class App extends Component {
   state = {
-    search: ""
+    search: "",
+    modal: false,
   };
 
+  selectModal = (id) => {
+    this.setState({
+      modal: id
+    })
+  }
+
+  
+
   rendercourse = course => {
-    const { search } = this.state;
-    var code = course.code.toLowerCase();
     var dep = course.dep;
     /*if( search !== "" && course.name.toLowerCase().indexOf( search.toLowerCase() ) === -1 ){
         return null
@@ -38,7 +42,18 @@ class App extends Component {
             </CardTitle>
             <CardText className="title">{course.name}</CardText>
             <p className="ic">{course.ic}</p>
-          </CardBody>
+            Units: {course.unit}<br />
+            <button onClick= {
+              this.selectModal.bind(this, course.code)}>More Info</button>
+            </CardBody>
+            <MyModal 
+            displayModal={this.state.modal === course.code}
+            coursename={course.name}
+            coursecode={course.code}
+            courseic={course.ic}
+            coursedep={course.dep}
+            courseunit={course.unit}
+            closeModal={this.selectModal} />
         </Card>
       </div>
     );
