@@ -1,14 +1,14 @@
 {
-  "main.css": "/Course-Searcher/static/css/main.a08ce14e.chunk.css",
-  "main.js": "/Course-Searcher/static/js/main.824b5581.chunk.js",
-  "main.js.map": "/Course-Searcher/static/js/main.824b5581.chunk.js.map",
-  "static/js/1.e074241e.chunk.js": "/Course-Searcher/static/js/1.e074241e.chunk.js",
-  "static/js/1.e074241e.chunk.js.map": "/Course-Searcher/static/js/1.e074241e.chunk.js.map",
+  "main.css": "/Course-Searcher/static/css/main.d1669aec.chunk.css",
+  "main.js": "/Course-Searcher/static/js/main.ae515ecf.chunk.js",
+  "main.js.map": "/Course-Searcher/static/js/main.ae515ecf.chunk.js.map",
+  "static/js/1.ebd07004.chunk.js": "/Course-Searcher/static/js/1.ebd07004.chunk.js",
+  "static/js/1.ebd07004.chunk.js.map": "/Course-Searcher/static/js/1.ebd07004.chunk.js.map",
   "runtime~main.js": "/Course-Searcher/static/js/runtime~main.4b12f10f.js",
   "runtime~main.js.map": "/Course-Searcher/static/js/runtime~main.4b12f10f.js.map",
   "static/media/styles.css": "/Course-Searcher/static/media/che.2aa7ffa8.png",
-  "static/css/main.a08ce14e.chunk.css.map": "/Course-Searcher/static/css/main.a08ce14e.chunk.css.map",
+  "static/css/main.d1669aec.chunk.css.map": "/Course-Searcher/static/css/main.d1669aec.chunk.css.map",
   "index.html": "/Course-Searcher/index.html",
-  "precache-manifest.d88749167499443ad831551e53f1c35e.js": "/Course-Searcher/precache-manifest.d88749167499443ad831551e53f1c35e.js",
+  "precache-manifest.cd6e71356291701ddc3f29b66884a5cf.js": "/Course-Searcher/precache-manifest.cd6e71356291701ddc3f29b66884a5cf.js",
   "service-worker.js": "/Course-Searcher/service-worker.js"
 }
