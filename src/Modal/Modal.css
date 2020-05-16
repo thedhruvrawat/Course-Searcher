@@ -20,22 +20,41 @@
     animation: show-modal 0.6s forwards;
     
   }
+
+  .modal-background {
+    background-image: url('../img/modalwall.jpg');
+    height: 70%; /* Height in proportion to its parent container */
+    margin: auto; /* Auto margin according to the element width */
+    width: 70%;
+    margin: auto;
+    max-width: 640px;
+    position: relative;
+    /* border-radius: 20px; */
+  }
   
   /* Modal content */
   .modal-content {
-    background-color: white;
-    width: 70%; /* Width in proportion to its parent container*/
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 95%; 
     max-width: 640px; /* Max width where it stops expanding */
-    height: 70%; /* Height in proportion to its parent container */
-    margin: auto; /* Auto margin according to the element width */
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 20px; /* Optional. Rounds container corners */
+    height: 95%; 
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid black; */
+    border-radius: 0; /* Optional. Rounds container corners */
     font-family: 'Open Sans', sans-serif;
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035), 0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
     /* animation: open-description 0.6s 0.2s cubic-bezier(0.745, 0.045, 0.255, 1) forwards; */
+    z-index: 2;
   }
   
+  .content-matter {
+    font-size: 25px;
+  }
+
   .modal-flex {
     display: flex;
     height: 100%; 
@@ -52,11 +71,13 @@
   /* Close button */
   .close {
     color: #aaaaaa;
-    float: right !important; /* Positioned to the right of the parent container whichever size it is */
-    font-size:40px;
+    float: right !important;
+    font-size: 40px;
     font-weight: bold;
     text-align: right;
-    padding-right: 10px;
+    padding-right: 20px;
+    z-index: 999 !important;
+    position: absolute;
   }
   
   .close:hover,
@@ -77,4 +98,36 @@
   to {
     opacity: 1;
   }
+}
+
+.bionew::before {
+  content: 'Department of Biological Sciences';
+}
+
+
+.biotnew::before {
+  content: 'Department of Biotechnology';
+}
+
+
+.cenew::before {
+  content: 'Department of Civil Engineering';
+}
+
+
+.chenew::before {
+  content: 'Department of Chemical Engineering';
+}
+
+
+.chemnew::before {
+  content: 'Department of Chemistry';
+}
+
+.csisnew::before {
+  content: 'Department of Computer Science and Information Systems';
+}
+
+.ecofinnew::before {
+  content: 'Department of Economics and Finance';
 }

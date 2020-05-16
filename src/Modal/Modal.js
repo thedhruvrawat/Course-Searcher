@@ -1,18 +1,21 @@
 import React from 'react';
-import { Button, Header, Icon, Modal } from 'semantic-ui-react'
 import './Modal.css'
+import clsx from  'clsx';
 
 const MyModal = props => {
+
+  var dept = props.coursedep+'new';
   
 
 function displayInfo () {
     return (
-        <div>
-            <div>{props.coursename}</div>
-            <div>{props.courseic}</div>
-            <div>{props.courseunit}</div>
-            <div>{props.coursedep}</div>
-            <div>{props.coursecode}</div>
+        <div className='content-matter'>
+            <div className="coursename">{props.coursename}</div>
+            <div className="coursecode">Course Code: {props.coursecode}</div>
+            
+            <div className="courseic">{props.courseic}</div>
+            <div className="courseunits">{props.courseunit}</div>
+            
         </div>
         
     );
@@ -28,19 +31,21 @@ function displayInfo () {
       <div 
       className="modal"
       onClick={ closeModal }>
-
-        <div className="modal-content"
-          onClick={ e => e.stopPropagation() }>
-          
-          <span 
+        <div className="modal-background">
+        <span 
             className="close"
             onClick={ closeModal }>&times;
           </span>
 
+        <div className={ clsx("modal-content", dept)}
+          onClick={ e => e.stopPropagation() }>
+          
+         
           <div className="modal-flex">
             {displayInfo()}
           </div>
 
+        </div>
         </div>
 
       </div>

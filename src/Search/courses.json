@@ -1,6 +1,7 @@
 [
   {
     "name": "BIOLOGY LABORATORY",
+    "fullname": "BIOLOGY LABORATORY",
     "code": "BIO F110",
     "ic": "SUDESHNA CHOUDHURY",
     "unit": 1,
@@ -8,6 +9,7 @@
   },
   {
     "name": "GENERAL BIOLOGY",
+    "fullname": "GENERAL BIOLOGY",
     "code": "BIO F111",
     "ic": "SHILPI GARG",
     "unit": 3,
