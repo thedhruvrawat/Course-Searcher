@@ -1,4 +1,9 @@
 /* Background effect. It covers the entire site */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 .modal {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Overlay effect: translucent background: black w/ partial opacity */
@@ -23,6 +28,7 @@
     padding: 10px;
     border: 1px solid black;
     border-radius: 20px; /* Optional. Rounds container corners */
+    font-family: 'Open Sans', sans-serif;
   }
   
   .modal-flex {
@@ -41,9 +47,11 @@
   /* Close button */
   .close {
     color: #aaaaaa;
-    float: right; /* Positioned to the right of the parent container whichever size it is */
-    font-size: 25px;
+    float: right !important; /* Positioned to the right of the parent container whichever size it is */
+    font-size:40px;
     font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
   }
   
   .close:hover,
@@ -52,3 +60,4 @@
     text-decoration: none;
     cursor: pointer;
   }
+  

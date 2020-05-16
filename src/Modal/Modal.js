@@ -24,6 +24,7 @@ function displayInfo () {
   }
 
   let modal = (
+      
       <div 
       className="modal"
       onClick={ closeModal }>
@@ -44,27 +45,6 @@ function displayInfo () {
 
       </div>
     )
-// const modal = (
-//     <Modal basic size='small' onClick={ closeModal }>
-//       <Header icon='archive' content='Archive Old Messages' />
-//       <Modal.Content onClick={ e => e.stopPropagation() }>
-//         <p>
-//           Your inbox is getting full, would you like us to enable automatic
-//           archiving of old messages?
-//           {displayInfo()}
-//         </p>
-//       </Modal.Content>
-//       <Modal.Actions>
-//         <Button basic color='red' inverted onClick={ closeModal }>
-//           <Icon name='remove' /> No
-//         </Button>
-//         <Button color='green' inverted>
-//           <Icon name='checkmark' /> Yes
-//         </Button>
-//       </Modal.Actions>
-//     </Modal>
-//   )
-
 
 
 

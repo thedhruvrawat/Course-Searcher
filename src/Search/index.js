@@ -42,7 +42,6 @@ class App extends Component {
             </CardTitle>
             <CardText className="title">{course.name}</CardText>
             <p className="ic">{course.ic}</p>
-            Units: {course.unit}<br />
             <button onClick= {
               this.selectModal.bind(this, course.code)}>More Info</button>
             </CardBody>
