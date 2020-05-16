@@ -65,7 +65,11 @@ class App extends Component {
   render() {
     const { search } = this.state;
     const filteredcourses = courseList.filter(course => {
-      return course.name.toLowerCase().indexOf(search.toLowerCase()) !== -1;
+      return (
+        course.name.toLowerCase().indexOf(search.toLowerCase()) !== -1 ? 
+        course.name.toLowerCase().indexOf(search.toLowerCase()) !== -1 :
+        course.code.toLowerCase().indexOf(search.toLowerCase()) !== -1
+        );
     });
 
     return (

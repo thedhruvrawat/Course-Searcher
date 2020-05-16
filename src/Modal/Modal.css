@@ -131,3 +131,17 @@
 .ecofinnew::before {
   content: 'Department of Economics and Finance';
 }
+
+
+.eeenew::before {
+  content: 'Department of Electrical & Electronics Engineering';
+}
+
+.mathnew::before {
+  content: 'Department of Mathematics';
+}
+
+
+.phynew::before {
+  content: 'Department of Physics';
+}
