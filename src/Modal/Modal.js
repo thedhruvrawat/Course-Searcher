@@ -10,11 +10,10 @@ const MyModal = props => {
 function displayInfo () {
     return (
         <div className='content-matter'>
-            <div className="coursename">{props.coursename}</div>
-            <div className="coursecode">Course Code: {props.coursecode}</div>
-            
-            <div className="courseic">{props.courseic}</div>
-            <div className="courseunits">{props.courseunit}</div>
+            <div className="coursename">Course Name<tab>        </tab>: {props.coursename}</div>
+            <div className="coursecode">Course Code<tab>        </tab> : {props.coursecode}</div>            
+            <div className="courseic">Course IC<tab>            </tab>   : {props.courseic}</div>
+            <div className="courseunits">Units<tab>                </tab>       : {props.courseunit}</div>
             
         </div>
         

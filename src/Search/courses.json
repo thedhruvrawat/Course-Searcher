@@ -31,6 +31,7 @@
   },
   {
     "name": "ECOLOGY & ENVIRON SCI",
+    "fullname": "ECOLOGY & ENVIRONMENTAL SCIENCE",
     "code": "BIO F241",
     "ic": "BHAGAVATULA VANI",
     "unit": 3,
@@ -38,6 +39,7 @@
   },
   {
     "name": "INTRO TO BIOINFORMATICS",
+    "fullname": "INTRODUCTION TO BIOINFORMATICS",
     "code": "BIO F242",
     "ic": "SHIBASISH CHOWDHURY",
     "unit": 3,
@@ -109,14 +111,14 @@
   {
     "name": "TECH REPORT WRITING",
     "code": "BITS F112",
-    "ic": "GAURAV WATTS",
+    "ic": "GAJENDRA S CHAUHAN",
     "unit": 2,
     "dep": "bits"
   },
   {
     "name": "ENGINEERING GRAPHICS",
     "code": "BITS F110",
-    "ic": "GAJENDRA S CHAUHAN",
+    "ic": "GAURAV WATTS",
     "unit": 2,
     "dep": "bits"
   },

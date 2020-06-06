@@ -14,7 +14,7 @@
     top: 0;
     left: 0;
     overflow: auto; /* Enable scroll if needed */
-    padding-top: 80px; /* Location of the content container */
+    padding-top: 180px; 
     display: block;
     opacity: 0;
     animation: show-modal 0.6s forwards;
@@ -23,7 +23,7 @@
 
   .modal-background {
     background-image: url('../img/modalwall.jpg');
-    height: 70%; /* Height in proportion to its parent container */
+    height: 60%; /* Height in proportion to its parent container */
     margin: auto; /* Auto margin according to the element width */
     width: 70%;
     margin: auto;
@@ -38,11 +38,11 @@
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
     background-color: rgba(255, 255, 255, 0.8);
-    width: 95%; 
+    width: 80%; 
     max-width: 640px; /* Max width where it stops expanding */
-    height: 95%; 
+    height: 70%; 
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     /* border: 1px solid black; */
     border-radius: 0; /* Optional. Rounds container corners */
     font-family: 'Open Sans', sans-serif;
@@ -52,8 +52,18 @@
   }
   
   .content-matter {
-    font-size: 25px;
+    font-size: 17px;
+    text-align: left;
+    white-space:pre;
   }
+  tab{
+    white-space: pre;
+  }
+/* 
+  .space{
+    display: inline-block;
+    margin-left: 45px !important;
+  } */
 
   .modal-flex {
     display: flex;
@@ -71,13 +81,13 @@
   /* Close button */
   .close {
     color: #aaaaaa;
-    float: right !important;
+    /* float: right !important; */
     font-size: 40px;
     font-weight: bold;
     text-align: right;
-    padding-right: 20px;
+    padding: 0.5em 1em;
     z-index: 999 !important;
-    position: absolute;
+    position: relative;
   }
   
   .close:hover,
@@ -144,4 +154,7 @@
 
 .phynew::before {
   content: 'Department of Physics';
+}
+.menew::before {
+  content: 'Department of Mechanical Engineering';
 }

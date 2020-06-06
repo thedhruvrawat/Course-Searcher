@@ -29,6 +29,7 @@ class App extends Component {
 
   rendercourse = course => {
     var dep = course.dep;
+    var maincoursename=course.fullname?course.fullname:course.name;
     /*if( search !== "" && course.name.toLowerCase().indexOf( search.toLowerCase() ) === -1 ){
         return null
     }*/
@@ -41,7 +42,7 @@ class App extends Component {
               {course.code}
             </CardTitle>
             <CardText className="title">{course.name}</CardText>
-            <p className="ic">{course.ic}</p>
+            {/* <p className="ic">{course.ic}</p> */}
             <button onClick= {
               this.selectModal.bind(this, course.code)}>More Info</button>
             </CardBody>
